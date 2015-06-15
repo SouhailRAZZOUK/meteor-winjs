@@ -1,46 +1,47 @@
 ### progress
-[X] WinAppBar
-[X] WinAppBarCommand
-[X] WinAppBarSeparator
-[X] WinAppBarContent
-[X] WinAutoSuggestBox
-[X] WinBackButton
-[X] WinContentDialog
-[X] WinDatePicker
-[X] WinFlyout
-[X] WinMenu
-[X] WinMenuCommand
-[X] WinMenuSeparator
-[X] WinNavBar
-[X] WinNavBarCommand
-[X] WinNavBarContainer
-[X] WinRating
-================================================================================
-Pending
-[] WinCellSpanningLayout
-[] WinCommandTemplate
-[] WinFlipView
-[] WinGridLayout
-[] WinGroupHeaderTemplate
-[] WinHub
-[] WinHubSection
-[] WinItemContainer
-[] WinItemTemplate
-[] WinListLayout
-[] WinListView
-[] WinPivot
-[] WinPivotItem
-[] WinSearchBox
-[] WinSectionHeaderTemplate
-[] WinSemanticZoom
-[] WinSplitView
-[] WinSplitViewPane
-[] WinSplitViewContent
-[] WinTimePicker
-[] WinToggleSwitch
-[] WinToolBar
-[] WinToolBarCommand
-[] WinToolBarSeparator
-[] WinToolBarContent
-[] WinTooltip
-[] WinTooltipContent
+- [x] WinAppBar
+- [x] WinAppBarCommand
+- [x] WinAppBarSeparator
+- [x] WinAppBarContent
+- [x] WinAutoSuggestBox
+- [x] WinBackButton
+- [x] WinContentDialog
+- [x] WinDatePicker
+- [x] WinFlyout
+- [x] WinMenu
+- [x] WinMenuCommand
+- [x] WinMenuSeparator
+- [x] WinNavBar
+- [x] WinNavBarCommand
+- [x] WinNavBarContainer
+- [x] WinRating
+
+---
+###Pending
+- [ ] WinCellSpanningLayout
+- [ ] WinCommandTemplate
+- [ ] WinFlipView
+- [ ] WinGridLayout
+- [ ] WinGroupHeaderTemplate
+- [ ] WinHub
+- [ ] WinHubSection
+- [ ] WinItemContainer
+- [ ] WinItemTemplate
+- [ ] WinListLayout
+- [ ] WinListView
+- [ ] WinPivot
+- [ ] WinPivotItem
+- [ ] WinSearchBox
+- [ ] WinSectionHeaderTemplate
+- [ ] WinSemanticZoom
+- [ ] WinSplitView
+- [ ] WinSplitViewPane
+- [ ] WinSplitViewContent
+- [ ] WinTimePicker
+- [ ] WinToggleSwitch
+- [ ] WinToolBar
+- [ ] WinToolBarCommand
+- [ ] WinToolBarSeparator
+- [ ] WinToolBarContent
+- [ ] WinTooltip
+- [ ] WinTooltipContent

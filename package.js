@@ -12,7 +12,8 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom('0.9.0');
-    api.use(['coffeescript', 'templating', 'peerlibrary:blaze-components@0.8.0'], 'client')
+    api.use(['coffeescript', 'templating', 'peerlibrary:blaze-components@0.8.0'], 'client');
+    console.log(Package.options)
     api.addFiles([
         // import package namespace
         'namespace.js',
@@ -20,6 +21,7 @@ Package.onUse(function(api) {
         'winjs/fonts/Symbols.ttf',
         'winjs/css/ui-dark.css',
         'winjs/js/base.js',
+        'winjs/js/ui.js',
         // import meteor wrapper
         'libs/meteor-winjs.coffee',
         'libs/meteor-winjs-helpers.coffee',

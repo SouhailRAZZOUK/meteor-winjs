@@ -15,7 +15,10 @@
 - [x] WinNavBarCommand
 - [x] WinNavBarContainer
 - [x] WinRating
-
+- [x] WinSplitView
+- [x] WinSplitViewPane
+- [x] WinSplitViewContent
+- [x] WinSplitViewPaneToggle
 ---
 ###Pending
 - [ ] WinCellSpanningLayout
@@ -34,9 +37,7 @@
 - [ ] WinSearchBox
 - [ ] WinSectionHeaderTemplate
 - [ ] WinSemanticZoom
-- [ ] WinSplitView
-- [ ] WinSplitViewPane
-- [ ] WinSplitViewContent
+
 - [ ] WinTimePicker
 - [ ] WinToggleSwitch
 - [ ] WinToolBar

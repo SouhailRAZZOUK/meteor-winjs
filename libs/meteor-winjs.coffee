@@ -27,8 +27,8 @@ class @BaseWinJSControl extends BlazeComponent
             if data.hasOwnProperty _k
                 if _k[0] is "o" and _k[1] is "n"
                     apis[_k.toLowerCase()] = _v
-                else if _v.indexOf("document.") is 0
-                    apis[_k] = eval(_v);
+                else if typeof _v is "string" and _v.indexOf("document.") is 0
+                    apis[_k] = eval _v
                 else
                     apis[_k] = _v
         apis

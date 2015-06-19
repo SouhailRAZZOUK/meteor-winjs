@@ -157,7 +157,11 @@ class WinNavBar extends BaseWinJSControl
 class WinNavBarCommand extends BaseWinJSControl
     @register "WinNavBarCommand"
     onRendered: ()->
-        @control = new WinJS.UI.NavBarCommand @firstNode(), @defaultOptions
+        apis = @getApis()
+        @control = new WinJS.UI.NavBarCommand @firstNode(), apis
+        # Bind click event
+        if apis.onclick? and apis.onclick is Function
+            @control.addEventListener('click', apis.onclick);
         super
 
 class WinNavBarContainer extends BaseWinJSControl
@@ -182,6 +186,7 @@ class WinRating extends BaseWinJSControl
     @register "WinRating"
     onRendered: ()->
         @control = new WinJS.UI.Rating @firstNode(), @getApis()
+
         super
 
 class WinSearchBox extends BaseWinJSControl
@@ -205,19 +210,21 @@ class WinSemanticZoom extends BaseWinJSControl
 class WinSplitView extends BaseWinJSControl
     @register "WinSplitView"
     onRendered: ()->
-        @control = new WinJS.UI.Command @firstNode(), @defaultOptions
+        @control = new WinJS.UI.SplitView @firstNode(), @defaultOptions
         super
 
 class WinSplitViewPane extends BaseWinJSControl
     @register "WinSplitViewPane"
     onRendered: ()->
-        @control = new WinJS.UI.Command @firstNode(), @defaultOptions
-        super
 
 class WinSplitViewContent extends BaseWinJSControl
     @register "WinSplitViewContent"
     onRendered: ()->
-        @control = new WinJS.UI.Command @firstNode(), @defaultOptions
+
+class WinSplitViewPaneToggle extends BaseWinJSControl
+    @register "WinSplitViewPaneToggle"
+    onRendered: ()->
+        @control = new WinJS.UI.SplitViewPaneToggle @firstNode(), @defaultOptions
         super
 
 class WinTimePicker extends BaseWinJSControl

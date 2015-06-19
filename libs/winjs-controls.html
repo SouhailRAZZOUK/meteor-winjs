@@ -131,11 +131,15 @@
 </template>
 
 <template name="WinSplitViewPane">
-    <div class="{{class}}" id="{{id}}">{{> Template.contentBlock}}</div>
+    <div class="win-split-view-pane {{class}}" id="{{id}}">{{> Template.contentBlock}}</div>
 </template>
 
 <template name="WinSplitViewContent">
-    <div class="{{class}}" id="{{id}}">{{> Template.contentBlock}}</div>
+    <div class="win-split-view-content {{class}}" id="{{id}}">{{> Template.contentBlock}}</div>
+</template>
+
+<template name="WinSplitViewPaneToggle">
+    <button class="{{class}}" id="{{id}}"></button>
 </template>
 
 <template name="WinTimePicker">
